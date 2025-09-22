@@ -43,6 +43,11 @@ summary(cars)
 #>  Max.   :25.0   Max.   :120.00
 ```
 
+``` r
+2+2
+#> [1] 4
+```
+
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date. `devtools::build_readme()` is handy for this.
 
