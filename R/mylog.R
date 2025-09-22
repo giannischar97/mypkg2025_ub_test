@@ -17,11 +17,13 @@ mylog <- function(x){
 }
 
 # Create the contingency table
-birth_table <- matrix(c(30, 170, 50, 150, 20, 180), nrow = 3, byrow = TRUE)
-dimnames(birth_table) <- list(
-  EthnicGroup = c("Group A", "Group B", "Group C"),
-  BirthWeight = c("Low", "Normal")
-)
-birth_table
+#birth_table <- matrix(c(30, 170, 50, 150, 20, 180), nrow = 3, byrow = TRUE)
+#dimnames(birth_table) <- list(
+#  EthnicGroup = c("Group A", "Group B", "Group C"),
+#  BirthWeight = c("Low", "Normal")
+#)
+#birth_table
 # Run the chi-square test
-chisq.test(birth_table)
+#chisq.test(birth_table)
+
+
