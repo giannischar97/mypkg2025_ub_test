@@ -5,4 +5,4 @@ logarithm<- function(a,b){
   return(result)
 
 }
-logarithm(-1,2)
+logarithm(1,2)
